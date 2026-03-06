@@ -2,7 +2,7 @@
   "mcpServers": {
     "testlab": {
       "type": "http",
-      "url": "http://<your testlab server here>/mcp/endpoint"
+      "url": "https://<your testlab server here>/mcp/endpoint"
     }
   }
 }
