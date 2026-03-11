@@ -22,10 +22,10 @@ Make a plan of the following:
 3. Analyze the content in the codebase thoroughly to figure out the requirements needed for the specification. You can ask the user for clarifications if it is needed for figuring out the requirements. 
 4. Create a .spec/ directory to the project root (stop and ask the user to remove it if it already exists).
 5. By following the structure of the SEED project (step 1), in the .spec/ folder, for each requirement you think the system or App needs,
-5.1. Create a directory named "requirementId - requirement name",
-5.2. Write a meta.json file in each requirement folder - See 'About meta.json files' below for the format,
-5.3. Write the description of the requirement to description.html file in each requirement folder, use simple HTML syntax similar to the SEED project content,
-5.4. Document the sub-requirements needed with the same logic by following the instructions in the SEED project. Create a tree of directories so that sub-requirements are created in the folder of their parent. Do not document sub-requirements and their ids to description content: As the spec is a tree, always document sub-requirements as children to the appropriate parent. 
+   - Create a directory named "requirementId - requirement name",
+   - Write a meta.json file in each requirement folder - See 'About meta.json files' below for the format,
+   - Write the description of the requirement to description.html file in each requirement folder, use simple HTML syntax similar to the SEED project content,
+   - Document the sub-requirements needed with the same logic by following the instructions in the SEED project. Create a tree of directories so that sub-requirements are created in the folder of their parent. Do not document sub-requirements and their ids to description content: As the spec is a tree, always document sub-requirements as children to the appropriate parent. 
 6. Use 'bootstrap_project' Tool via MCP to create a new project to Testlab with the generated specification.
 7. If successful, remove the created .spec/ directory and the zip file.
 8. Ask the developer to review the plan and execute it if allowed.
