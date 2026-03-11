@@ -19,7 +19,7 @@ Make a plan of the following:
 
 1. As basis of the specification and how to construct the specification, fetch the specifications and inspect the project "SEED" from Testlab. It acts as seed data for the spec.
 2. Go through the SEED specification and learn how the specification should be generated from the codebase.
-3. Analyze the content in the codebase thoroughly to figure out the requirements needed for the specification. You can ask the user for clarifications if it is needed for figuring out the requirements. 
+3. Analyze the content in the codebase thoroughly to figure out the requirements needed for the specification. You can ask the user for clarifications if it is needed for figuring out the requirements. Use High Effort for this step as it is the most important aspect of the bootstrap: it is imperative to analyze the codebase thoroughly and document all functions and features in the generated spec.
 4. Create a .spec/ directory to the project root (stop and ask the user to remove it if it already exists).
 5. By following the structure of the SEED project (step 1), in the .spec/ folder, for each requirement you think the system or App needs,
    - Create a directory named "requirementId - requirement name",
