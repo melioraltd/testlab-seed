@@ -1,6 +1,6 @@
 ## Specification guidelines
 
-Specifications on what the App does should be documented and maintained in Testlab ALM via MCP ("testlab").
+Specifications on what the App does should be documented in Testlab ALM via MCP ("testlab").
 
 The principle:
 
@@ -40,8 +40,8 @@ Use "testlab" mcp server to access project with projectKey "<HUMAN REPLACES THIS
 
 ### Workflow
 
-- Always before implementing any new features, use get_requirement_tree tool to inspect the specification as a whole and read, analyze and apply the specification as a developer would
-- Before implementing a feature or working on it, refresh the relevant requirements from ALM as they might have been edited
+- Always, before implementing or planning anything, use get_requirement_tree tool to inspect the specification as a whole and read, analyze and apply the specification as a developer would
+- Before implementing or planning something, refresh the relevant requirements from ALM as they might have been edited
 - Fetch requirement "GL - Glossary and terminology" for domain terminology
 - Follow code conventions for all code
 - Prefer the technology stack and follow technical guidelines documented under "T - Technical" folder
