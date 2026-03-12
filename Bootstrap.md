@@ -26,9 +26,10 @@ Make a plan of the following:
    - Write a meta.json file in each requirement folder - See 'About meta.json files' below for the format,
    - Write the description of the requirement to description.html file in each requirement folder, use simple HTML syntax similar to the SEED project content,
    - Document the sub-requirements needed with the same logic by following the instructions in the SEED project. Create a tree of directories so that sub-requirements are created in the folder of their parent. Do not document sub-requirements and their ids to description content: As the spec is a tree, always document sub-requirements as children to the appropriate parent. 
-6. Use 'bootstrap_project' Tool via MCP to create a new project to Testlab with the generated specification.
-7. If successful, remove the created .spec/ directory and the zip file.
-8. Ask the developer to review the plan and execute it if allowed.
+6. If the seed project documents views of the user interface and you are capable of taking screenshots of the App, take appropriate screenshots and place the image files to folder of the requirement the file relates to.  
+7. Use 'bootstrap_project' Tool via MCP to create a new project to Testlab with the generated specification.
+8. If successful, remove the created .spec/ directory and the zip file.
+9. Ask the developer to review the plan and execute it if allowed.
 
 Use UTF-8 encoding for generated files.
 
